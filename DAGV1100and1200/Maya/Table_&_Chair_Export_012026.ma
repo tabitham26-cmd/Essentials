@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Table_&_Chair_Export_012026.ma
-//Last modified: Tue, Feb 03, 2026 10:11:25 PM
+//Last modified: Tue, Feb 03, 2026 10:18:37 PM
 //Codeset: 1252
 requires maya "2026";
 requires "mtoa" "5.5.4.2";
@@ -10,7 +10,7 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "78E153EB-4FCB-7A34-30FE-B29093724BBE";
+fileInfo "UUID" "A7AB60B2-4383-D501-69A0-AE8C962B9584";
 fileInfo "exportedFrom" "C:/Users/Tabit/OneDrive/Documents/maya/projects/Table_&_Chair_012026.mb";
 createNode transform -s -n "persp";
 	rename -uid "BD50D998-4972-0CA8-A08D-D6AB2FC548AD";
