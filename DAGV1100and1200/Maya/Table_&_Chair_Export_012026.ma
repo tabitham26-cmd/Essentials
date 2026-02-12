@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: Table_&_Chair_Export_012026.ma
-//Last modified: Wed, Feb 11, 2026 08:51:48 PM
+//Last modified: Wed, Feb 11, 2026 09:00:46 PM
 //Codeset: 1252
 file -rdi 1 -ns "Cup" -rfn "CupRN" -op "v=0;" -typ "mayaAscii" "C:/GitHub/Essentials/DAGV1100and1200/Maya//Cup.ma";
 file -rdi 1 -ns "Potted_Plant" -rfn "Potted_PlantRN" -op "v=0;" -typ "mayaAscii"
@@ -16,20 +16,20 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202510291147-60ec9eda33";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "BA0E730C-40E9-7634-047F-DEA07FFDC1B7";
+fileInfo "UUID" "F833D91A-4E50-5D17-355E-19AED13849DE";
 fileInfo "exportedFrom" "C:/Users/Tabit/OneDrive/Documents/maya/projects/Table_&_Chair_012026.mb";
 createNode transform -s -n "persp";
 	rename -uid "BD50D998-4972-0CA8-A08D-D6AB2FC548AD";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 33.33104837825028 32.020031127912496 24.833380300328475 ;
-	setAttr ".r" -type "double3" -33.338352728687262 1493.3999999994401 0 ;
+	setAttr ".t" -type "double3" 38.693755878642406 28.326616603374042 21.108427461892777 ;
+	setAttr ".r" -type "double3" -17.738352728692977 1498.9999999992035 3.0876888878024995e-15 ;
 	setAttr ".rp" -type "double3" 5.3290705182007514e-15 4.8849813083506888e-15 0 ;
 	setAttr ".rpt" -type "double3" -1.8695431920238931e-15 -4.9957286565578907e-16 -4.5893243991973287e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "7BC5362B-4AD1-169F-0C70-F4A32BC0BE18";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 46.206283561736321;
-	setAttr ".coi" 48.255050807844199;
+	setAttr ".coi" 48.25505080783585;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -5996,9 +5996,6 @@ createNode polyUnite -n "polyUnite1";
 createNode groupId -n "groupId67";
 	rename -uid "DA8DA8BF-4290-139D-B5F0-418A1D265CCE";
 	setAttr ".ihi" 0;
-createNode groupId -n "groupId72";
-	rename -uid "EC52587F-4A20-0F8D-AE37-73B0264ACC65";
-	setAttr ".ihi" 0;
 createNode animCurveTL -n "polySurface1_translateX";
 	rename -uid "B4DCAFBC-42F0-8AF3-FE1F-B78CB57D6C31";
 	setAttr ".tan" 18;
@@ -6016,9 +6013,6 @@ createNode animCurveTL -n "polySurface1_translateZ";
 	setAttr ".ktv[0]"  1 0;
 createNode groupId -n "groupId74";
 	rename -uid "D54C8FFC-434B-DD4E-79FF-35B3E1406F6E";
-	setAttr ".ihi" 0;
-createNode groupId -n "groupId75";
-	rename -uid "27F728B2-4870-1E8A-44DA-2290B867C1B1";
 	setAttr ".ihi" 0;
 createNode groupId -n "groupId12";
 	rename -uid "864DAD44-49BC-01E5-D617-6DAE742338BE";
@@ -6054,6 +6048,12 @@ createNode reference -n "Potted_PlantRN";
 		2 "|Potted_Plant:Pot" "scale" " -type \"double3\" 0.39359132508360939 0.39359132508360939 0.39359132508360939";
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
+createNode groupId -n "groupId72";
+	rename -uid "EC52587F-4A20-0F8D-AE37-73B0264ACC65";
+	setAttr ".ihi" 0;
+createNode groupId -n "groupId75";
+	rename -uid "27F728B2-4870-1E8A-44DA-2290B867C1B1";
+	setAttr ".ihi" 0;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
